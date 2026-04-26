@@ -1,0 +1,6 @@
+node_modules
+.plugin-deps
+.DS_Store
+dist
+.dev
+.test-dist

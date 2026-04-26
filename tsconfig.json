@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "remove",
+    "preserveValueImports": false,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "esnext"],
+    "types": ["node", "react", "react-dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@cloudscape-design/*": [".plugin-deps/node_modules/@cloudscape-design/*"]
+    }
+  },
+  "include": [
+    "app/app.tsx",
+    "app/runtime/**/*.tsx",
+    "app/api/**/*.ts",
+    "app/components/**/*.tsx",
+    "app/screens/task-dashboard.tsx",
+    "app/types.ts",
+    "app/utils/**/*.ts",
+    "dev/**/*.ts",
+    "index.tsx",
+    "global.d.ts",
+    "tests/**/*.ts"
+  ]
+}

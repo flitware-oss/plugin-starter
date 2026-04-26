@@ -1,0 +1,49 @@
+{
+  "name": "plugin-starter",
+  "version": "0.1.0",
+  "sideEffects": true,
+  "type": "module",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "build:dev": "node dev-build.js",
+    "dev": "node watch.js",
+    "start": "serve dist -l 5500",
+    "start:dev": "serve .dev -l 5500",
+    "test": "node scripts/run-tests.mjs",
+    "test:coverage": "node scripts/run-tests.mjs --coverage"
+  },
+  "keywords": ["plugin", "flitware", "pluginstarter", "starter", "template", "react", "typescript", "esbuild", "cloudscape", "microfrontend", "micro-frontend", "microkernel", "micro-kernel"],
+  "author": "Flitware",
+  "website": "https://flitware.com",
+  "license": "MIT",
+  "description": "A ready-to-use plugin starter with preconfigured environment, tooling, and best practices for building plugins.",
+  "dependencies": {
+    "@cloudscape-design/collection-hooks": "^1.0.90",
+    "@cloudscape-design/components": "^3.0.1284",
+    "@cloudscape-design/global-styles": "^1.0.57",
+    "@tanstack/react-table": "^8.21.3",
+    "flux-proxy": "^0.2.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "7.6.3"
+  },
+  "devDependencies": {
+    "@types/csso": "5.0.4",
+    "@types/node": "24.0.10",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "chokidar": "4.0.3",
+    "csso": "5.0.5",
+    "esbuild": "0.25.5",
+    "esbuild-plugin-inline-import": "1.1.0",
+    "html-minifier-terser": "7.2.0",
+    "javascript-obfuscator": "4.1.1",
+    "live-server": "1.2.0",
+    "pocketbase": "0.26.1",
+    "serve": "14.2.4",
+    "ts-node": "10.9.2",
+    "typescript": "5.8.3"
+  }
+}
