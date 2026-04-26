@@ -2,9 +2,9 @@
  <img src="./icon.svg" width="75" height="75" alt="icon">
  --
 
- <img src="./Screenshot-1.png" width="100%" height="auto">
- <img src="./Screenshot-2.png" width="100%" height="auto">
- <img src="./Screenshot-3.png" width="100%" height="auto">
+ <img src="./Screenshot-1.png" width="100%" height="auto" style="border-radius: 16px;">
+ <img src="./Screenshot-2.png" width="100%" height="auto" style="border-radius: 16px;">
+ <img src="./Screenshot-3.png" width="100%" height="auto" style="border-radius: 16px;">
 
 
 Starter publico de Flitware para que terceros construyan plugins externos con una base real de:
