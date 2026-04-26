@@ -33,6 +33,19 @@ Ese archivo resume:
 - reglas para editar sin romper el starter
 - flujo recomendado de validacion
 
+## Guia de contribucion
+
+Este starter también incluye una guía de contribución en:
+
+- `CONTRIBUTING.md`
+
+Úsala como referencia para:
+
+- flujo de trabajo recomendado
+- validaciones mínimas
+- expectativas de calidad
+- cambios sensibles en runtime, mocks o build
+
 ## Objetivos del starter
 
 - Permitir desarrollo local sin depender de la app principal real.
